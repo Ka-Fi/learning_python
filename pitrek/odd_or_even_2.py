@@ -1,6 +1,7 @@
 Number = int(input("Give me your number: "))
-Reszta = (Number % 2)
-if int(Reszta)==0
-    print("Liczba parzysta")
-elif
-    print("Liczba nieparzysta")
+Divider = int(input("Give me your divider: "))
+Rest = (Number % Divider)
+if int(Rest) == 0:
+    print("Even")
+else:
+    print("Odd")
